@@ -1,9 +1,13 @@
 {
-    "plugins": [
-      {
-        "name": "learn",
-        "description": "Turn Claude's mistakes into CLAUDE.md rules",
-        "source": "."
-      }
-    ]
-  }
+  "name": "marcoshaber99-learn",
+  "owner": {
+    "name": "Marco Haber"
+  },
+  "plugins": [
+    {
+      "name": "learn",
+      "description": "Turn Claude's mistakes into CLAUDE.md rules",
+      "source": "./plugins/learn"
+    }
+  ]
+}
