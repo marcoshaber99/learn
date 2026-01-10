@@ -19,8 +19,8 @@ Investigates the mistake, proposes a rule, adds it to your CLAUDE.md.
 
 ## Installation
 ```bash
-/plugin marketplace add marcohaber99/learn
-/plugin install learn@marcohaber99-learn
+/plugin marketplace add marcoshaber99/learn
+/plugin install learn@marcoshaber99-learn
 ```
 
 ## What Happens
