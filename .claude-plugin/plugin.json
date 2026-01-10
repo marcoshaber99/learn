@@ -1,0 +1,8 @@
+{
+    "name": "learn",
+    "description": "Turn Claude's mistakes into CLAUDE.md rules. Your project gets smarter with every failure.",
+    "version": "1.0.0",
+    "author": {
+      "name": "Marco Haber"
+    }
+  }
