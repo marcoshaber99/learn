@@ -1,10 +1,8 @@
 # Learn
 
-A Claude Code plugin that turns mistakes into CLAUDE.md rules.
+A Claude Code plugin that turns mistakes into rules.
 
-## The Idea
-
-Claude makes the same mistakes until you tell it not to. This plugin captures those lessons with a single command.
+When Claude makes a mistake, you can tell it what went wrong. This plugin investigates the error, comes up with a rule to prevent it, and saves it to your `CLAUDE.md`.
 
 ## Commands
 
@@ -37,12 +35,12 @@ Every mistake becomes a rule. Your project gets smarter over time.
 
 ## Inspiration
 
-Boris Cherny (creator of Claude Code) on his team's workflow:
+Boris Cherny (creator of Claude Code) mentioned that his team manually adds rules to CLAUDE.md after mistakes:
 
 > "Anytime we see Claude do something incorrectly we add it to the CLAUDE.md, so Claude knows not to do it next time."
 
 This plugin turns that into a command.
 
-## License
 
-MIT
+## Contributing
+Issues/PRs welcome!

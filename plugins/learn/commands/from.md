@@ -23,7 +23,26 @@ Write a concise rule that would prevent this mistake. Good rules are:
 - Short (1-2 sentences max)
 - Actionable (tells what TO do, not just what not to do)
 
-## Step 4: Present for approval
+## Step 4: Check for duplicates
+
+Read the existing `## Learned Rules` section in CLAUDE.md.
+
+If a similar rule already exists, tell the user:
+```
+A similar rule already exists:
+
+> [existing rule]
+
+Your new rule:
+
+> [proposed rule]
+
+Still add it? (yes/no)
+```
+
+If the user says no, stop here.
+
+## Step 5: Present for approval
 
 Show the user:
 ```
@@ -34,7 +53,7 @@ Proposed rule:
 Add to CLAUDE.md? (yes/no)
 ```
 
-## Step 5: If approved
+## Step 6: If approved
 
 Add the rule to the `## Learned Rules` section in CLAUDE.md.
 
