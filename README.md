@@ -8,19 +8,20 @@ When Claude makes a mistake, you can tell it what went wrong. This plugin invest
 
 **`/learn:from`** — After Claude makes a mistake
 ```
-/learn:from You used any instead of a proper TypeScript interface
+/learn:from
 ```
 
-Investigates the mistake, proposes a rule, adds it to your CLAUDE.md.
+Paste the error or describe what went wrong. The plugin investigates, proposes a rule, and adds it to your CLAUDE.md.
 
 **`/learn:list`** — See what your project has learned
+
+**`/learn:remove`** — Remove a rule that's outdated or wrong
 
 ## Installation
 ```bash
 /plugin marketplace add marcoshaber99/learn
 /plugin install learn@marcoshaber99-learn
 ```
-
 ## What Happens
 
 Your CLAUDE.md grows a `## Learned Rules` section:
